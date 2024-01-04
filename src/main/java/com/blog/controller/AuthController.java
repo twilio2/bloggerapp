@@ -73,4 +73,6 @@ public class AuthController {
         User savedUser = userRepository.save(user);
         return new ResponseEntity<>("user registered sucessfully ", HttpStatus.OK);
     }
+    publi void test(){
+    }
 }
